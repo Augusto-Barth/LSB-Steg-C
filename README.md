@@ -1,6 +1,12 @@
 # Sobre
 Código em C que insere uma mensagem de texto em uma imagem utilizando a esteganografia LSB, utilizando a biblioteca libpng.
 
+
+
+Imagem Original                  |  Mensagem(50kB), N=1 bit
+:-------------------------------:|:--------------------------------------:
+![](/article_images/imag_45.png) | ![](/article_images/imag_45_1b_pjr.png)
+
 O código para esteganografia está em **lsbStegDiffuse.c**. A compilação do código foi feita com 
 ```
 gcc lsbStegDiffuse.c -o lsbStegDiffuse -lpng -O2
