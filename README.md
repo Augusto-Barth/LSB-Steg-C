@@ -20,7 +20,6 @@ Usa a imagem **cover.png** como imagem base, e insere a mensagem contida em **me
 Extrai a mensagem de **stego.png** com profundidade **stegoBitDepth** (1-8) e armazena ela em **messageOut.txt**:
 ```
 ./lsbStegDiffuse stego.png messageOut.txt stegoBitDepth
-
 ```
 
 Extrai os bit planes vermelho, verde e azul do bit **bitPlane** (1-8) da imagem **image.png**:
